@@ -1,0 +1,329 @@
+/* COLORES
+    BG 252526
+    CZ 2D2D30
+    TXT F2F1F1
+    TXT2 6F7782
+    TITULOS 2179BF
+    ROSA B164A8
+    BG2 3E3E40
+    CORCHETES C4C92F
+    HEADER D7BA5E
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #252526;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+i{
+    color: #F2F1F1;
+}
+h1{
+    color: #F2F1F1;
+    font-size: 30px;
+}
+h2,h3,h4{
+    color: #F2F1F1;
+    font-size: 28px;
+}
+p{
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+    color: #F2F1F1;
+    font-size: 24px;
+}
+li{
+    font-size: 24px;
+    padding: 5px 0;
+    margin-left: 6px;
+    border-left: 2px solid #3E3E40;
+}
+/* ESPACIO SUPERIOR */
+.nav{
+    height: 50px;
+    background-color: #2D2D30;
+    border-bottom: 2px solid #3E3E40;
+}
+
+/* GENERAL */
+.container{
+    display: flex;
+    border-bottom: 2px solid #3E3E40;
+    
+}
+.fa-angle-right, .fa-angle-down{
+    color: #F2F1F1;
+    font-size: 20px;
+}
+img{
+    width: 30px;
+    height: 100%;
+}
+
+/* LADO IZQUIERDO */
+.PI li, .IPI li{
+    border: none;
+}
+.sobreMi{
+    width: 35%;
+    align-items: left;
+    padding: 0 15px;
+    border-right: 2px solid #3E3E40;
+}
+.personalInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.R h2, .L h2{
+    padding: 15PX 0;
+}
+.Knowledges h3{
+    background-color: #3E3E40;
+}
+.Knowledges h4{
+    padding-left: 10px;
+}
+.Knowledges ul{
+    padding-left: 20px;
+    font: 25px bold;
+}
+.Knowledges li{
+    padding-left: 20px;
+    font-style: italic;
+}
+
+/* LADO DERECHO */
+
+/* GENERALES */
+
+.parentesis{
+    color: #B164A8;
+}
+.brackets{
+    color: #C4C92F;
+}
+.fa-angles-right{
+    font-size: 16px;
+}
+.fa{
+    font-size: 18px;
+    color: #6F7782;
+}
+
+/* INFO GENERAL */
+
+.mainInfo{
+    width: 100%;
+}
+.name{
+    width: 450px;
+    padding: 15px;
+    border-right: 2px solid #3E3E40;
+    border-top: 2px solid #2179BF;
+    background-color: #2D2D30;
+}
+.fa-circle{
+    font-size: 16px;
+    padding-left: 15px;
+}
+.main-body{
+    background-color: #2D2D30;
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-top: 2px solid #3E3E40;
+}
+.number{
+    text-align: center;
+}
+.number li{
+    color: #6F7782;
+    border: none;
+}
+.info-container{
+    display: flex;
+}
+.main-R{
+    padding-left: 5px;
+}
+.titles{
+    color: #2179BF;
+    font-size: 24px;
+    padding: 5px;
+}
+.profile{
+    color: #F2F1F1;
+    margin-left: 10px;
+    padding: 0 20px;
+    line-height: 36px;
+    border-left: 2px solid #3E3E40;
+}
+.finales{
+    color: #2179BF;
+    padding: 9px 0 5px 5px;
+}
+
+/* EXPERIENCIA */
+
+.XP{
+    margin-left: 10px;
+    line-height: 36px;
+    border-left: 2px solid #3E3E40;
+}
+.place{
+    color: #5CADE0;
+    padding-left: 20px;
+}
+.work{
+    margin-left: 25px;
+    border-left: 2px solid #3E3E40;
+}
+.labor{
+    color: #B164A8;
+    padding-left: 15px;
+}
+
+.date{
+    color: #5CADE0;
+}
+.sub{
+    color: #5CADE0;
+    padding-left: 15px;
+}
+.sub span{
+    color: #D7BA5E;
+}
+.logros{
+    color: #D7BA5E;
+    padding-left: 15px;
+}
+.logros li{
+    color: #F2F1F1;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 0%;
+}
+.final{
+    padding: 0px 0 0px 15px;
+}
+.cerrar{
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+
+/* SECCION INFERIOR */
+
+.down-side{
+    display: flex;
+}
+
+/* HABILIDADES */
+
+.habilidades{
+    width: 35%;
+    align-items: left;
+    border-right: 2px solid #3E3E40;
+    padding: 0 15px;
+}
+.habilidades-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0 0 20px;
+}
+.habilidades p{
+    color: #F2F1F1;
+    padding: 10px 0 0 30px;
+}
+
+/* REFERENCIAS */
+
+.referencias{
+    width: 100%;
+    align-items: left;
+}
+.nav-referencias{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.referencias ul{
+    display: flex;
+    justify-content: space-between;
+}
+.referencias li{
+    padding: 20px 10px;
+}
+.R-referencias p {
+    color: #6F7782;
+    font: bolder;
+}
+.R-referencias span{
+    color: #F2F1F1;
+    border-bottom: 2px solid #5CADE0;
+}
+.L-referencias{
+    padding-right: 20px;
+}
+.L-referencias li{
+    color: #6F7782;
+}
+.fa-angle-up, .fa-xmark{
+    color: #6F7782;
+}
+.tipo-referencia{
+    width: fit-content;
+    margin: 10px 20px;
+    padding: 5px 10px 5px 0;
+    color: #3E3E40;
+    background-color: #5CADE0;
+}
+.tipo-asterisco{
+    padding: 5px 10px;
+    color: #3E3E40;
+    background-color: #F2F1F1;
+}
+.referenciado{
+    padding: 10px 40px;
+    color: #F2F1F1;
+    
+}
+.nombre{
+    
+    font-size: 28px;
+}
+.profesion{
+    color: #2179BF;
+}
+.cargo{
+    font-style: italic;
+}
+
+
+
+.footer{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D2D30;
+    border-bottom: 2px solid #3E3E40;
+}
+.footer p{
+    padding: 5px 300px;
+    color: #6F7782;
+    font-size: 16px;
+}
