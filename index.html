@@ -16,7 +16,7 @@
         <div class="sobreMi">
             <div class="personalInfo">
                 <div class="R">
-                    <h2>Sobre mi</h2>
+                    <h2 class="sobre-mi">Sobre mi</h2>
                     <ul class="PI">
                         <li><p><i class="fa-solid fa-angle-right"></i> camiilo.piinto@gmail.com</p></li>
                         <li><P><i class="fa-solid fa-angle-right"></i> Bogotá/ Colombia</P></li>
@@ -29,8 +29,8 @@
                     <h2>...</h2>
                     <ul class="IPI">
                         <li><i class="fa-solid fa-envelope fa-bounce"></i></li>
-                        <li><i class="fa-solid fa-location-dot"></i></li>
-                        <li><i class="fa-solid fa-mobile-retro"></i></li>
+                        <li><i class="fa-solid fa-location-dot fa-bounce"></i></li>
+                        <li><i class="fa-solid fa-mobile-screen fa-shake"></i></li>
                         <li><i class="fa-brands fa-linkedin-in"></i></li>
                         <li><i class="fa-brands fa-github"></i></li>
                     </ul>
@@ -249,7 +249,7 @@
                                 <p class="labor">Asistente de obra <span class="brackets">{ <span class="date">SEP 2018 - JUN 2019</span> }</span></p>
                                 <p class="sub">Subcontratado por: <span>JP Soluciones Integrales</span></p>
                                 <ul class="logros">Logros/Funciones <span class="brackets">{</span>
-                                    <li><i class="fa-solid fa-angles-right"></i> MInstalación y venta de productos para seguridad doméstica, programación y adecuación de sistemas domóticos. </li>
+                                    <li><i class="fa-solid fa-angles-right"></i> Instalación y venta de productos para seguridad doméstica, programación y adecuación de sistemas domóticos. </li>
                                     <li><i class="fa-solid fa-angles-right"></i> Transporte de herramientas y del personal para la ejecución de las obras.</li>
                                 </ul>
                             <p class="final"> <span class="brackets">}</span></p>
@@ -275,7 +275,7 @@
                 <h3><i class="fa-solid fa-angle-down"></i> Habilidades</h3>
                 <h2>...</h2>
             </div>
-            <p>
+            <p class="habilidades-list">
                 <span class="brackets">{ </span>JavaScript<span class="brackets"> }</span>
                 <span class="brackets">{ </span>Vue.JS<span class="brackets"> }</span>
                 <span class="brackets">{ </span>React.JS<span class="brackets"> }</span><br>
@@ -326,17 +326,26 @@
                 </div>
             </div>
             
-            <h3 class="tipo-referencia"><span class="tipo-asterisco">*</span> Profesionales</h3>
-            <p class="referenciado"><span class="nombre">Camila Fernández Q. </span>[ <span class="profesion">Diseñador gráfico</span> ] <span class="cargo">Subdirección comercial en Cafam</span> / Cel: 322 450 4280</p>
-            <p class="referenciado"><span class="nombre">John Gutiérrez </span>[ <span class="profesion">Técnico en Sistemas</span> ] <span class="cargo">Gerente general en SGD MUNDO DIGITAL</span> / Cel: 320 340 0141</p>
-            <h3 class="tipo-referencia"><span class="tipo-asterisco">*</span> Personales</h3>
-            <p class="referenciado"><span class="nombre">Ricardo Buitrago P. </span>[ <span class="profesion">Desarrollador Full Stack</span> ] <span class="cargo">Líder técnico en Raddar Studios</span> / Cel: 300 748 4578</p>
-            <p class="referenciado"><span class="nombre">Octavio Chica </span>[ <span class="profesion">Desarrollador Full Stack</span> ] <span class="cargo">Arquitecto de Software en Iconoi S.A.</span> / Cel: 318 638 3500</p>
+            <div class="referenciado-grupo">
+                <h3 class="tipo-referencia"><span class="tipo-asterisco">*</span> Profesionales</h3>
+                <p class="referenciado"><span class="nombre">Camila Fernández Q. </span>[ <span class="profesion">Diseñador gráfico</span> ] <span class="cargo">Subdirección comercial en Cafam</span> / Cel: 322 450 4280</p>
+                <p class="referenciado"><span class="nombre">John Gutiérrez </span>[ <span class="profesion">Técnico en Sistemas</span> ] <span class="cargo">Gerente general en SGD MUNDO DIGITAL</span> / Cel: 320 340 0141</p>
+                <h3 class="tipo-referencia"><span class="tipo-asterisco">*</span> Personales</h3>
+                <p class="referenciado"><span class="nombre">Ricardo Buitrago P. </span>[ <span class="profesion">Desarrollador Full Stack</span> ] <span class="cargo">Líder técnico en Raddar Studios</span> / Cel: 300 748 4578</p>
+                <p class="referenciado"><span class="nombre">Octavio Chica </span>[ <span class="profesion">Desarrollador Full Stack</span> ] <span class="cargo">Arquitecto de Software en Iconoi S.A.</span> / Cel: 318 638 3500</p>
+            </div>
+            
         </div>        
     </div>
     <footer class="footer">
         <p>Todos los derechos reservados</p>
-        <p>Camiilo Piinto 2023</p>
+        <p><i class="fa-regular fa-copyright"></i> Camiilo Piinto 2023</p>
     </footer>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- CUSTOM JS -->
+    <script src="./main.js"></script>
 </body>
 </html>

@@ -253,6 +253,7 @@ img{
 .referencias{
     width: 100%;
     align-items: left;
+    padding-bottom: 10px;
 }
 .nav-referencias{
     width: 100%;
@@ -326,4 +327,8 @@ img{
     padding: 5px 300px;
     color: #6F7782;
     font-size: 16px;
+}
+.fa-copyright{
+    font-size: 16px;
+    color: #6F7782;
 }
