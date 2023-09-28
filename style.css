@@ -1,4 +1,4 @@
-/* COLORES
+/* COLORES DARK MODE
     BG 252526
     CZ 2D2D30
     TXT F2F1F1
@@ -9,6 +9,18 @@
     CORCHETES C4C92F
     HEADER D7BA5E
 */
+/* COLORES LIGHT MODE
+    BG 252526
+    CZ 2D2D30
+    TXT F2F1F1
+    TXT2 6F7782
+    TITULOS 2179BF
+    ROSA B164A8
+    BG2 3E3E40
+    CORCHETES C4C92F
+    HEADER D7BA5E
+*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +28,7 @@
 }
 body{
     background-color: #252526;
+    transition: all 0.7s;
 }
 a{
     color: #ffffff;
@@ -48,13 +61,55 @@ li{
 }
 /* ESPACIO SUPERIOR */
 .nav{
-    height: 50px;
+    height: 80px;
     background-color: #2D2D30;
     border-bottom: 2px solid #3E3E40;
+    transition: all 0.7s;
+}
+
+#modo{
+    background-color: #F2F1F1;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    box-shadow: inset 4px 4px 6px #cecece,
+                inset -4px -4px 6px #fff;
+    top: 20px;
+    left: 20px;
+    border-radius: 25px;
+    cursor: pointer;         
+}
+.fa-sun{
+    font-size: 25px;
+    position: relative;
+    top: 8px;
+    left: 7px;
+    color: #F2F1F1;
+}
+.fa-moon{
+    font-size: 25px;
+    position: relative;
+    top: 8px;
+    left: 15px;
+    color: #2D2D30;
+}
+.toggle{
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: scale(.7);
+    background-color: #2179BF;
+/*     background-color: linear-gradient(145deg #d8d8d8, #ffffff); */
+    border-radius: 25px;
+    box-shadow: 3px 3px 8px #c4c4c4,
+                -3px -3px 8px #c4c4c4;
 }
 
 /* GENERAL */
 .container{
+    width: 100%;
     display: flex;
     border-bottom: 2px solid #3E3E40;
     
@@ -130,6 +185,7 @@ img{
     border-right: 2px solid #3E3E40;
     border-top: 2px solid #2179BF;
     background-color: #2D2D30;
+    transition: all 0.7s;
 }
 .fa-circle{
     font-size: 16px;
@@ -142,6 +198,7 @@ img{
     padding-left: 15px;
     padding-bottom: 10px;
     border-top: 2px solid #3E3E40;
+    transition: all 0.7s;
 }
 .number{
     text-align: center;
@@ -331,4 +388,57 @@ img{
 .fa-copyright{
     font-size: 16px;
     color: #6F7782;
+}
+
+
+body.darkmode{
+    background-color: #F2F1F1;
+    color: #252526;
+}
+
+/* MODO CLARO Y OSCURO */
+
+#modo.active{
+    background-color: #3E3E40;
+    box-shadow: inset 4px 4px 6px #252526,
+                inset -4px -4px 6px #2D2D30;
+}
+#modo.active .toggle{
+    left: 40px;
+/*     background-color: linear-gradient(145deg #2D2D30, #3E3E40);
+ */    border-radius: 25px;
+    box-shadow: 3px 3px 8px #2D2D30,
+                -3px -3px 8px #252526;
+}
+#modo.active .fa-sun{
+    color: #F2F1F1;
+}
+body.active{
+    background-color: #F2F1F1;
+}
+body.active p, body.active ul, body.active li, body.active h2, body.active h4, body.active a{
+    color: #252526;
+}
+body.active .Knowledges h3{
+    color: #F2F1F1;
+    background-color: #5CADE0;
+}
+body.active .fa-solid, body.active .fa-brands{
+    color: #252526;
+}
+body.active .nav{
+    background-color: #F2F1F1;
+}
+body.active .name{
+    color: #2D2D30;
+    background-color: #F2F1F1;
+}
+body.active .main-body{
+    background-color: #F2F1F1;
+}
+body.active .habilidades-nav h3{
+    color: #252526;
+}
+body.active .R-referencias span{
+    color: #252526;
 }
