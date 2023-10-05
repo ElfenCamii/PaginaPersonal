@@ -18,7 +18,10 @@ p{
     color: #1E1E1E;
 }
 span{font-size: 0.5em;}
-ul{list-style: none;}
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
 li{font-size: 1.25em;}
 
 button{
@@ -240,12 +243,13 @@ footer .container{
     #otros-proyectos .programas{
         display: flex;
         justify-content: center;
-        height: 600px;
+        min-height: 400px;
+        height: auto;
     }
     #otros-proyectos .proyectos p{
         display: block;
         color: #F2F1F1;
-        font-size: 1em;
+        font-size: 1.4em;
         margin-bottom: 30px;
         padding: 3px;
         background-color: rgba(0,0,0,0.5);
