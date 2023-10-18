@@ -423,7 +423,7 @@ a{
     display: inline;
   }
 }
-@media (max-width:400px){
+@media (max-width:500px){
   .el__content{
     padding: 30px 10px 30px 10px;
   }
