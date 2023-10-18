@@ -423,3 +423,17 @@ a{
     display: inline;
   }
 }
+@media (max-width:400px){
+  .el__content{
+    padding: 30px 10px 30px 10px;
+  }
+  .el__text {
+    padding: 0;
+  }
+  .el__text h1{
+    font-size: 1em;
+  }
+  .el__text p{
+    font-size: 0.7em;
+  }
+}
