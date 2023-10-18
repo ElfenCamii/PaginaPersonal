@@ -99,9 +99,9 @@ header a:hover{
     font-size: 1.8em;
 }
 
-#soy-camii{
+/* #soy-camii{
 
-}
+} */
 
 #soy-camii .container{
     text-align: center;
@@ -119,9 +119,9 @@ header a:hover{
     margin-top: 0;
     font-size: 3.2em;
 }
-#otros-proyectos p{
+/* #otros-proyectos p{
     display: none;
-}
+} */
 #otros-proyectos .proyectos{
     background-size: cover;
     background-position: center center;
@@ -186,6 +186,7 @@ footer .container{
     header{
         position: fixed;
         width: 100%;
+        z-index: 5;
     }
     
     header .container{

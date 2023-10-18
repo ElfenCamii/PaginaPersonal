@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="./cel.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
@@ -40,27 +41,86 @@
 
     <section id="otros-proyectos">
         <div class="container">
-            <h2>Mis proyectos</h2>
-            <div class="programas">
-                <div class="proyectos">
-                    <h3>Mi hoja de vida</h3>
-                    <p>¿Quieres conocer al candidato ideal para tu equipo? Mi hoja de vida es un vistazo a mi trayectoria profesional y logros. Descubre cómo mis habilidades y experiencia pueden agregar valor a tu organización. ¡Echa un vistazo y déjame mostrarte por qué soy la elección correcta!</p>
-                    <form action="./cv.html">
-                        <button>+ info</button>
-                    </form>
+            <div class="cont s--inactive">
+                <!-- cont inner start -->
+                <div class="cont__inner">
+                  <!-- el start -->
+                  <div class="el">
+                    <div class="el__overflow">
+                      <div class="el__inner">
+                        <div class="el__bg"></div>
+                        <div class="el__preview-cont">
+                          <h2 class="el__heading"><i class="fa-brands fa-html5"></i><br>HTML</h2>
+                        </div>
+                        <div class="el__content">
+                          <div class="el__text">
+                            <h1>Vanilla</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, quis aspernatur? Mollitia obcaecati sit debitis molestiae, iste sunt officia explicabo, quia quidem nulla amet veniam repellendus harum velit fugiat id.</p>
+                          </div>
+                          <div class="el__close-btn"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="el__index">
+                      <div class="el__index-back">c</div>
+                      <div class="el__index-front">
+                        <div class="el__index-overlay" data-index="c">c</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- el end -->
+                  <!-- el start -->
+                  <div class="el">
+                    <div class="el__overflow">
+                      <div class="el__inner">
+                        <div class="el__bg"></div>
+                        <div class="el__preview-cont">
+                          <h2 class="el__heading"><i class="fa-brands fa-vuejs"></i>
+                        <br>Vue.JS</h2>
+                        </div>
+                        <div class="el__content">
+                          <div class="el__text">
+                            <h1>En construcción!!</h1>
+                            <p>¡Hola! Estamos trabajando arduamente en nuestra página web para brindarte la mejor experiencia posible. Perdón por las molestias, pero pronto estaremos en línea con contenido increíble. ¡Gracias por tu paciencia!</p>
+                          </div>
+                          <div class="el__close-btn"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="el__index">
+                      <div class="el__index-back">s</div>
+                      <div class="el__index-front">
+                        <div class="el__index-overlay" data-index="s">s</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- el end -->
+                  <!-- el start -->
+                  <div class="el">
+                    <div class="el__overflow">
+                      <div class="el__inner">
+                        <div class="el__bg"></div>
+                        <div class="el__preview-cont">
+                          <h2 class="el__heading"><i class="fa-brands fa-react"></i><br>React</h2>
+                        </div>
+                        <div class="el__content">
+                          <div class="el__text"><h1>En construcción!!</h1>
+                            <p>¡Hola! Estamos emocionados de estar construyendo nuestra página web desde cero para ofrecerte lo mejor. Lamentablemente, todavía no está lista, pero estamos trabajando duro para que esté disponible lo antes posible. Gracias por tu comprensión.</p>
+                        </div>
+                          <div class="el__close-btn"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="el__index">
+                      <div class="el__index-back">s</div>
+                      <div class="el__index-front">
+                        <div class="el__index-overlay" data-index="s">s</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- el end -->
                 </div>
-                <div class="proyectos">
-                    <h3>Mi primer pagina (Twitch)</h3>
-                    <p>Bienvenidos a mi blog personal, un espacio donde comparto mis reflexiones, aventuras y descubrimientos. Desde viajes emocionantes hasta consejos útiles sobre temas que me apasionan, este blog es mi ventana al mundo. Espero que encuentres inspiración y entretenimiento en cada entrada, y te invito a unirte a esta comunidad donde compartimos nuestras experiencias y aprendemos juntos. ¡Gracias por ser parte de mi viaje en línea!</p>
-                    <button>+ info</button>
-                </div>
-                <div class="proyectos">
-                    <h3>Pagina de streams</h3>
-                    <p>En nuestro sitio web, te sumergirás en un mundo de entretenimiento sin límites. Disfruta de una amplia gama de contenido en vivo, todo disponible al alcance de tu mano. Con una interfaz intuitiva, te invitamos a explorar y descubrir una experiencia de streaming única que te mantendrá cautivado en cada clic!"</p>
-                    <form action="https://elfencamii.github.io/Pagina-Streams/">
-                        <button>+ info</button>
-                    </form>
-                </div>
+                <!-- cont inner end -->
             </div>
         </div>
     </section>
@@ -81,5 +141,8 @@
             <p>&copy; Camiilo Piinto 2023</p>
         </div>
     </footer>
+
+    <!-- CUSTOM JS -->
+    <script src="./gallery.js"></script>
 </body>
 </html>
