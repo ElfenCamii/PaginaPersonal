@@ -104,10 +104,6 @@ header a:hover{
     flex-direction: column;
     height: 1100px;
     color: #F2F1F1;
-    /* background-image:url('../img/under-construction1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; */
 }
 #construction-section{
     display: flex;
@@ -132,8 +128,7 @@ header a:hover{
 -------------- Basic Reset Css ----------
 */
 * {
-    box-sizing: border-box;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 0px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -412,9 +407,7 @@ box-shadow: 0px 0px 20px -2px rgba(237, 36, 96, 1);
 transition: all 0.5s;
 transition: all 0.5s;
 transform: rotate(270deg);
-
 }
-
 
 .cont_btn_open_dets  > a > i, .cont_btn_open_dets1  > a > i {
 margin-top: 4px;
@@ -503,6 +496,22 @@ opacity: 1;
 bottom: 0px;
 }
 
+footer{
+    background-color: #2D2D30;
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: #F2F1F1;
+}
+footer .container{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.8em;
+}
+
 @media (min-width: 750px){
 
     header{
@@ -521,6 +530,7 @@ bottom: 0px;
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
+        margin: 0;
     }
 
     header .logo{
@@ -902,5 +912,9 @@ bottom: 0px;
     
     .cont_modal_active > .cont_photo  > .cont_detalles, .cont_modal_active1 > .cont_photo1  > .cont_detalles1{
     bottom: 0px;
+    }
+
+    footer .container{
+        justify-content: flex-end;
     }
 }
